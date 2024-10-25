@@ -70,7 +70,7 @@
 
 ### Step07: 妥善保存应用凭证
 
-🎉恭喜你已经完成飞书应用的准备工作了，请妥善保管好该应用的 ID 和 Secret
+🎉恭喜你，已经完成飞书应用的准备工作了，请妥善保管好该应用的 ID 和 Secret
 
 后续部署系统时，需要将其填写到 docker/.env 文件中的 `LARK_APP_ID` 和 `LARK_APP_SECRET` 变量中
 
@@ -80,4 +80,55 @@
 
 ## AI师傅剧本的准备及配置
 
-123
+整套系统部署完成但没有任何剧本也是无法体验系统的能力的，同时为了大家能够更好的发挥创造，因此制作了 AI师傅 的剧本模版，可以通过模版创建自己的文档，并将其绑定到系统中进行使用。 熟悉系统后就可以进一步的创造属于自己的AI课程了
+
+
+### 从模版创建剧本
+
+☞ https://zhentouai.feishu.cn/base/Yb2SbsSnzaEGsFswphrct5BynMe?table=tbl0HH3snMVqk2n4&view=vewlGkI2Jp
+
+直接点击右下角的 `使用该模版` 就可以将其复制到你自己的飞书云盘中了，之后你可以随意调整文档名称和位置
+
+<img src="../../img/zh-feishu-script-use-template.png" alt="">
+
+此时页面先不要关闭，后面会用到该文档的 URL 链接
+
+### 让系统有能力操纵剧本
+
+打开 飞书App 新建群
+
+<img src="../../img/zh-feishu-script-add-group.png" alt="">
+
+创建 `对话` 群，群名称：AI师傅剧本，随便添加一人进群即可
+
+<img src="../../img/zh-feishu-script-add-group2.png" alt="">
+
+点击右上角的 `设置` 并选择 `群机器人`
+
+<img src="../../img/zh-feishu-script-add-group-bot.png" alt="">
+
+点击 `添加机器人` 然后选择我们之前创建好的机器人 `AI师傅`
+
+<img src="../../img/zh-feishu-script-add-group-bot2.png" alt="">
+
+然后将刚才新建剧本文档的 URL 链接复制后发送到群内，在群中链接将以文档卡片的形式展现，此时我们需要将本群成员对该文档的权限改为 `可管理`
+
+🎉恭喜你，系统已经可以操作该文档啦
+
+<img src="../../img/zh-feishu-script-add-group-add-doc.png" alt="">
+
+### 进阶：让系统更便捷的操作更多剧本文件
+
+你是不是觉得每次都将文档发到有 `AI师傅` 机器人的群内并修改权限是一件很麻烦的事情？
+
+放心，我们还有更便捷的方式，能让系统可以操作更多的剧本文档
+* 首先，你需要做的是在飞书云盘中创建一个文件夹，
+* 然后进入该文件夹，并点击该文件夹的 `分享` 按钮
+* 搜索 AI，找到我们刚才已经创建好的群组 `AI师傅剧本`，将其加入协作者中
+
+<img src="../../img/zh-feishu-script-add-folder.png" alt="">
+
+最后修改其权限为 `可管理`， 点击发送/完成后就大功告成了，此后所有该文件夹内的剧本文档就都可以被系统操作了
+
+<img src="../../img/zh-feishu-script-add-folder2.png" alt="">
+
