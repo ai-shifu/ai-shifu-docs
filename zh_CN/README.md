@@ -6,7 +6,7 @@ more detail TBD
 
 ### 为什么使用 AI师傅（AI-Shifu）
 
-AI 师傅已经初步验证了在教育场景中的有效性。自研课程《跟 AI 学编程》支持了近千人从零接触编程，~[「做出了人生中第一个程序」用AI师傅学编程](http://mp.weixin.qq.com/s?__biz=MzkzMTczMjY0NA==&mid=2247483698&idx=1&sn=252e9ea6f8c6f24bdfec47c37f7caed4&chksm=c267ccf9f51045ef1f534d1f88f3a11c0b6a5d12318e83d043d2be6335b115bea7d91ba9b728&scene=21#wechat_redirect)~。
+AI 师傅已经初步验证了在教育场景中的有效性。自研课程《跟 AI 学编程》支持了近千人从零接触编程，[「做出了人生中第一个程序」用AI师傅学编程](http://mp.weixin.qq.com/s?__biz=MzkzMTczMjY0NA==&mid=2247483698&idx=1&sn=252e9ea6f8c6f24bdfec47c37f7caed4&chksm=c267ccf9f51045ef1f534d1f88f3a11c0b6a5d12318e83d043d2be6335b115bea7d91ba9b728&scene=21#wechat_redirect)
 
 学员的反馈有「这种学习方式很上瘾」，「如同老师在面对面地陪伴」，「学习中感受到了"贵族"的对待」等等。很多人提出想要用这种模式自己做课程：跟 AI 学销售、跟 AI 学英语、跟 AI 学律师业务……
 
