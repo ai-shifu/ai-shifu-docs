@@ -134,7 +134,7 @@
 
 ### Step04: 在 cook 中调试剧本
 
-系统部署完成后，进入 cook 系统后，在左侧导航中找到 `My Account`，在你的帐户中添加课程即可
+系统部署完成后(请参考[部署及调试](deployment-and-debugging.md)章节)，进入 cook 系统后，在左侧导航中找到 `My Account`，在你的帐户中添加课程即可
 * 课程名称随意，但建议与飞书文档同名，不易混淆便于管理
 * Lark App ID，请按照 Placeholder 的提示，仅填写文档的 ID 即可
 
