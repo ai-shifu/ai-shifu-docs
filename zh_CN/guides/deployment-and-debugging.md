@@ -33,7 +33,7 @@ LARK_APP_SECRET=your_lark_app_secret
 
 ## 准备至少一个大模型配置   
 
-请参考[模型配置](../configuration/models-and-configurations.md) 及[环境变量配置](../environment-variables.md)，准备至少一个大模型配置
+请参考[模型配置](./models-and-configurations.md) 及[环境变量配置](./environment-variables.md)，准备至少一个大模型配置
 
 
 ## 启动系统
