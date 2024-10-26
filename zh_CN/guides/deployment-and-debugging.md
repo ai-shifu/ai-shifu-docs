@@ -21,7 +21,7 @@ cp .env.example .env
 
 ## 更改环境变量
 
-系统的详细环境变量配置具体可以参考[环境变量配置](../environment-variables.md)章节
+系统的详细环境变量配置具体可以参考[环境变量配置](./environment-variables.md)章节
 
 但其中最重要的为`LARK_APP_ID`和`LARK_APP_SECRET`，请参考[飞书应用的准备及配置](preparation.md)章节，打开.env文件，将其改为你的飞书应用的ID和Secret
 
