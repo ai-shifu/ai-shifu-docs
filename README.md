@@ -1,3 +1,3 @@
-# Document for AI-Shifu
+# Documents for AI-Shifu
 
 Under construction...
