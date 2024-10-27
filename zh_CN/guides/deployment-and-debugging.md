@@ -46,7 +46,7 @@ docker compose up -d
 成功启动后,可看到如下输出
  
 
-<img src="../../img/zh-deployment-docker-start-success.png" alt="">
+<img src="../assets/zh-deployment-docker-start-success.png" alt="">
 
 ## 配置
 

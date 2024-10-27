@@ -14,18 +14,18 @@
 ### Step01: 登录飞书开放平台
 
 ☞ https://open.feishu.cn
-<img src="../../img/zh-login-feishu-open.png" alt="">
+<img src="../assets/zh-login-feishu-open.png" alt="">
 
 ### Step02: 创建 `企业自建应用`
 
-<img src="../../img/zh-feishu-create-app.png" alt="">
+<img src="../assets/zh-feishu-create-app.png" alt="">
 
 ### Step03: 填写应用必要信息
 
 * 应用名称： AI师傅
 * 应用描述： 用于AI师傅操作飞书多维表格
 
-<img src="../../img/zh-feishu-create-app-enter-info.png" alt="">
+<img src="../assets/zh-feishu-create-app-enter-info.png" alt="">
 
 ### Step04: 添加应用能力
 
@@ -33,11 +33,11 @@
 
 我们只需添加 `机器人` 这一项能力即可
 
-<img src="../../img/zh-feishu-create-app-add-ability.png" alt="">
+<img src="../assets/zh-feishu-create-app-add-ability.png" alt="">
 
 点击添加后，`应用能力` 下面的出现了 `机器人` 这一项能力即代表添加成功。此时我们不需要做任何其他配置。
 
-<img src="../../img/zh-feishu-create-app-add-ability-done.png" alt="">
+<img src="../assets/zh-feishu-create-app-add-ability-done.png" alt="">
 
 ### Step05: 添加必要权限
 
@@ -47,7 +47,7 @@
 * 点击右侧的 `开通权限`
 * 由于我们开通的是免审权限，此时权限状态应该是 $${\color{green}•已开通}$$
 
-<img src="../../img/zh-feishu-create-app-auth.png" alt="">
+<img src="../assets/zh-feishu-create-app-auth.png" alt="">
 
 ### Step06: 发布应用
 
@@ -58,15 +58,15 @@
   * 更新说明： init ai-shifu
   * xx端默认能力： 默认勾选了 `机器人` 不用动
 
-<img src="../../img/zh-feishu-create-app-create-version.png" alt="">
+<img src="../assets/zh-feishu-create-app-create-version.png" alt="">
 
 点击底部的 `保存` 按钮
 
-<img src="../../img/zh-feishu-create-app-create-version-save.png" alt="">
+<img src="../assets/zh-feishu-create-app-create-version-save.png" alt="">
 
 如果你是管理员，那会立刻跳转到发布页面并弹出确认发布对话框，此时点击确认发布即可。 如果你不是管理员，则通知管理员审核发布。
 
-<img src="../../img/zh-feishu-create-app-create-version-publish.png" alt="">
+<img src="../assets/zh-feishu-create-app-create-version-publish.png" alt="">
 
 ### Step07: 妥善保存应用凭证
 
@@ -89,7 +89,7 @@
 
 直接点击右下角的 `使用该模版` 就可以将其复制到你自己的飞书云盘中了，之后你可以随意调整文档名称和位置
 
-<img src="../../img/zh-feishu-script-use-template.png" alt="">
+<img src="../assets/zh-feishu-script-use-template.png" alt="">
 
 此时页面先不要关闭，后面会用到该文档的 URL 链接
 
@@ -97,25 +97,25 @@
 
 打开 飞书App 新建群
 
-<img src="../../img/zh-feishu-script-add-group.png" alt="">
+<img src="../assets/zh-feishu-script-add-group.png" alt="">
 
 创建 `对话` 群，群名称：AI师傅剧本，随便添加一人进群即可
 
-<img src="../../img/zh-feishu-script-add-group2.png" alt="">
+<img src="../assets/zh-feishu-script-add-group2.png" alt="">
 
 点击右上角的 `设置` 并选择 `群机器人`
 
-<img src="../../img/zh-feishu-script-add-group-bot.png" alt="">
+<img src="../assets/zh-feishu-script-add-group-bot.png" alt="">
 
 点击 `添加机器人` 然后选择我们之前创建好的机器人 `AI师傅`
 
-<img src="../../img/zh-feishu-script-add-group-bot2.png" alt="">
+<img src="../assets/zh-feishu-script-add-group-bot2.png" alt="">
 
 然后将刚才新建剧本文档的 URL 链接复制后发送到群内，在群中链接将以文档卡片的形式展现，此时我们需要将本群成员对该文档的权限改为 `可管理`
 
 🎉恭喜你，系统已经可以操作该文档啦
 
-<img src="../../img/zh-feishu-script-add-group-add-doc.png" alt="">
+<img src="../assets/zh-feishu-script-add-group-add-doc.png" alt="">
 
 ### Step03: 进阶：让系统更便捷的操作更多剧本文件
 
@@ -126,11 +126,11 @@
 * 然后进入该文件夹，并点击该文件夹的 `分享` 按钮
 * 搜索 AI，找到我们刚才已经创建好的群组 `AI师傅剧本`，将其加入协作者中
 
-<img src="../../img/zh-feishu-script-add-folder.png" alt="">
+<img src="../assets/zh-feishu-script-add-folder.png" alt="">
 
 最后修改其权限为 `可管理`， 点击发送/完成后就大功告成了，此后所有该文件夹内的剧本文档就都可以被系统操作了
 
-<img src="../../img/zh-feishu-script-add-folder2.png" alt="">
+<img src="../assets/zh-feishu-script-add-folder2.png" alt="">
 
 ### Step04: 在 cook 中调试剧本
 
@@ -138,7 +138,7 @@
 * 课程名称随意，但建议与飞书文档同名，不易混淆便于管理
 * Lark App ID，请按照 Placeholder 的提示，仅填写文档的 ID 即可
 
-<img src="../../img/zh-feishu-script-cook-add.png" alt="">
+<img src="../assets/zh-feishu-script-cook-add.png" alt="">
 
 完成后即可在 cook 的各种调试器中调试已添加的文档了
 
